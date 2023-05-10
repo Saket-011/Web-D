@@ -1,0 +1,15 @@
+
+*{
+    background-color: rgb(238, 248, 248);
+    margin:1 ;padding: 0;border: 0 black;
+}
+#try{
+    background-color: blueviolet;
+}
+#first{background-color: rgb(240, 240, 71);}
+.second{background-color: brown; color: white;}
+.bg-green{background-color: green;color: yellow;}
+
+p{color: rgb(7, 67, 11);}
+div{background-color: rgb(161, 244, 244); }
+h3{color: red;}
