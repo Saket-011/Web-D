@@ -1,0 +1,148 @@
+/* ----------------------------Level-1 ------------------------------------  */
+/* for commenting select text and use ctrl+/  */
+/* 2 color system- 1)RGB - rgb(255,200,20);   range 0-255
+                   2)HEX - #00ff00;  meaning r-0 g-255 b-0  range- 00-ff*/
+h1{
+    color: red;background-color: rgb(201, 246, 112); font-size:70px; text-decoration: underline; font-family:sans-serif;text-align: center; /* color properety is used to give colour to the foreground*/
+    height:100px;  width: auto; border-width: 2px; border-color: brown; border-style: solid; border-radius: 15px;
+    margin: 50px; 
+}
+h2{
+    color: rgb(17, 17, 138);background-color: rgb(202, 202, 245); text-transform: uppercase; font-weight:900; text-align: center;
+    margin: 30px 50px 30px 50px; display: block;
+}
+p{
+    color: rgb(14, 49, 4); text-align: start; line-height:45px; text-transform: capitalize; padding-left: 25px;padding-right: 25px;
+}
+body{
+    background-color: rgb(247, 247, 219);        /* background-color properety is used to give colour to the background*/
+}
+button{background-color: chocolate; color: blanchedalmond; 
+}
+#link{
+    text-align: center; font-size: 20px;
+}
+.about{
+    font-weight: 800; color: #777700; text-align: center;
+}
+h3{
+    text-transform: capitalize; font-size: 20px; color: maroon;
+}
+.photo{
+     padding: 25px 0px 25px 400px; /*using the padding shorthand top-right-bottom-left */
+}
+hr{
+    margin: 20px 10px 20px 10px;  background-color: rgb(39, 2, 2); font-weight: 700;height: 2px;
+}
+pre{
+    display: inline; background-color: #69f670;
+}
+.travel{
+    background-image: url("travel1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+/* --------------------------------------------------------------------------------------------------- */
+/* selectors- 1)universal selector *{} 
+              2)element selector h1{}
+              3)Id slector  #idname{} 
+              4)class selector  .classname{}
+text properties- 1)text-align   -- right, left and center 
+           2)text-decoration    -- underline ,overline line-through , none ...can also use color wavy underline
+           3)font-weight --  normal,bold,bolder,lighter , font-weight:100-900 range
+           4)font-family -- arial,roboto
+units in css- 1)font-size -- pixels (px) 96px=1inch  eg: font-size:30px;
+              2)line-height eg:line-height:40px; or normal;
+              3)text-transform eg:none,uppercase, lowercase, capitalise,                                  */
+
+/* -------------------------------------------Level 2 ------------------------------------  */
+/* box model in css 1) height -- height: 20px;
+                    2) width -- width: 50px;
+                    3) border-width -- 2px;
+                    4)border-style -- solid, dotted ,dashed
+                    5)border-color -- black; 
+                    ## border shorthand can be used to cover all properties in one line eg: border: 2px dotted black;
+                    6)border-radius -- border-radius:15px; or border-radius:50%; --will create circle
+                    7)padding-left:5px; 
+                    8)padding-right
+                    9)padding-top
+                    10)padding-bottom
+                    11)margin-top right bottom and left:5px; 
+  display property --- 1)display:inline; --: take only required space
+                       2)block--:takes full space available
+                       3)inline-block --: same as inline but can set margin and padding
+                       4)none ---: too remove element from document flow
+  visibility property -- 1) visibility:hidden;  --- makes the element with 0 visibility
+  alpha channel --- rgba - red green blue alpha(decides opacity-0 to 1)
+                     eg: color: rgba(255,0,0,0.5);
+  pseudo class selector :link; 
+                        :visited; 
+                        :hover; 
+                        :active; 
+                        :nth-child(3);
+
+                        eg: div:link{ bacckground-color:black;}
+                            p:hover{cursor:pointer;}
+                            div:nth-child(5):active{ color: purple;}
+                            div,span{
+                                 font-size:2px;
+                            }
+                            a:hover div:nth-child(4) {color: blue;}
+  selector relation --- 1) div>p  --- p which is direct child of div
+                        2) div p  --- p which is inside a div
+                        3) div.classname  --- div with class classname
+                        4).classname p --- p which is in a element having class classname
+                        5) div p a --- anchor tag which is in p which is in div                           */
+
+/* -------------------------------------------Level 3 ------------------------------------  */
+/*  units in css -- relative units :- % --define size relative to elemental's parent object. eg : width:33%; margin-left:50%;
+                                      em --font size relative to parent --- 1em means same font size. 
+                                      rem -- relative to font size of root element which maybe that of <html>
+                                      vh -- relative to 1% of viewport(screen) height
+                                      vw -- relative to 1% of viewport(browser screeen)  width
+position property -- 1)position:static;  -- default - won't move even if we set top bottom distance.
+                    2)relative  ---  position relative to previously where it was.
+                    3) absolute ---relative to its closest positioned ancestor like if p is in div then p will be relative to div
+                    4)fixed --- positioned relative to browser (like navbar always fixed at top)
+                    5)sticky -- based on users scroll position (will act like fixed once fter scrolling it comes to its desired position .
+z - index  --------- decides which element will be above and which will be below in case of overlapping.
+                    one which we write first will be below the next one by default
+                    z-index:auto(0); --by default
+                    z-axis:1;/2;/3; ....... increases priority to be on top
+                    z-axis:-1;/-2;/-3; .......... priority to be at bottom
+backgroung image---  background-image:url("link......");
+background size --- background-size: cover; --- completely covers the area,no empty spaces
+                                     contain; ---fits the area , whatever image is will be fully visible,
+                                     ,extra spaces could be filled by repeatition of pic-use background-repeat:no-repeat;
+                                     auto; --automatically whatever image comes.                 */
+
+ /* -------------------------------------------Level 4 ------------------------------------  */
+ /* to make a flex container set display:flex; to any element u want as container. 
+ flexbox --- 1)flex-direction -- how flexitems are placed in fleccontainer eg: row, column ,row-reverse,column-reverse.
+flex properties -- 1)justify-content  -- alignment along main axis eg:center ,flex-start,flex-end,space-around,space-evenly.
+                       2)align-content -- alignment of spaces betwn and around content along cross axis.
+                       3)align-items -- alignment along cross axis
+                       4)flex-wrap -- nowrap /wrap/ wrap-reverse  ----wraps element in next line too based on space available
+flex properties for flex items - 
+1)align-self - aalign of individual along cross axis. flex-end,flex-start,center.
+2)flex-grow - how much a flex item will grow relative to other flex items if space is available. eg: flex-grow:2; will grow 2 times than others
+3)flex-shrink - how much a flex item will shrink relative to other flex items if space is available.   
+
+media queries - helps create responsive websites.if we use on different devises of different wdth then what changes we need
+@media (width:600px) {
+  p{  background-color : red; }
+}
+eg2-- @media (min-width:200px)and(max-width:300px) { div{background-color:red; } }
+
+*/
+
+/* -------------------------------------------Level 5 ------------------------------------  */
+/* 
+
+
+
+
+                                     
+                                      
+                    
