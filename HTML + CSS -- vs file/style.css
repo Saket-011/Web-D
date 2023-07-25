@@ -1,0 +1,250 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+
+}
+.navbar{
+    margin-left: 10px;
+    display: flex;
+    height: 40px;
+    background-color: rgb(236, 242, 251);
+    align-items: center;
+    justify-content: left;
+    position: fixed;
+}
+.line{
+    height: 44px;
+    background-color: rgb(111, 111, 240);
+}
+.line2{
+    height: 1px;
+    background-color: rgb(236, 242, 251);;
+}
+.home{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.name{
+    margin-left: 10px;
+    font-size: 1.1rem;
+    font-family: roboto, Helvetica, Arial,  sans-serif;
+    font-weight: 700;
+    color: rgb(4, 4, 83);
+    
+}
+.space{
+    width: 800px;
+}
+.navigation{
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.section1{
+    background-color: rgb(246, 249, 252);
+    height: 550px;
+    background-image: url("United-Nations.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+.heading{
+    background-color: rgba(240, 248, 255, 0.6);
+    height: 550px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.outer{
+    height: 122px;
+    width: 141px;
+    background-color: rgba(241, 248, 255, 0.7);margin-top: 100px;
+}
+.logo{
+    
+    background-image: url("logo.png");
+    height: 100px;
+    width: 119px;
+    background-size: cover;
+    margin-top: 9px;
+    margin-left: 9px;
+
+    
+}
+.main_name{
+    margin-left: 40px;
+    margin-bottom: 150px;
+    font-family: roboto, Helvetica, Arial,  sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.section2{
+    padding: 10px;
+    height: 2000px;
+    background-color: rgb(224, 233, 245);}
+
+.bodyhead{ height: 240px;
+padding: 20px;
+
+}
+.bodyhead div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 500px;
+    margin-bottom: 20px;
+    margin-left: 500px;
+    text-decoration: underline solid;
+    
+}
+.bodyhead p{ font-size: 1.1rem;
+    background-color: white;
+    padding: 10px;
+}
+
+.bodyhead .span1 p{
+    width: 900px;
+}
+.team{
+    height: 200px;
+    width: 200px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: #003f6e;
+    margin-left: 150px;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius:20% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    width: 500px;
+    height: 300px;
+    background-color: #003f6e;
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.committee{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 70px;
+    
+}
+.class{
+    margin-right: 200px;
+    margin-bottom: 50px;
+    
+}
+.box p{
+    color: white;
+    font-size: 1.1rem;
+}
+.images{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+
+}
+.first .images{
+    background-image: url("security.jpeg");
+    background-size: cover;
+   
+}
+.second .images{
+    background-image: url("humanrights.jpeg");
+    background-size: cover;
+}
+.third .images{
+    background-image: url("disec.png");
+    background-size: cover;
+}
+.fourth .images{
+    background-image: url("court.jpeg");
+    background-size: cover;
+}
+.fifth .images{
+    background-image: url("health.jpeg");
+    background-size: cover;
+}
+ .class .box5{
+    margin-left: 370px;
+}
+.class .fifth{
+    margin-left: 525px;
+}
+
+
+
+
+
+
+
+
+
+.line3{
+    height: 6px;
+    background-color: rgb(24, 77, 155);
+    margin-bottom: 2px;
+}
+.footer{
+    background-color: rgb(14, 4, 43);
+    height: 200px;
+    padding-top: 20px;
+}
+
+.foot_logo{
+    height: 70px;
+    width: 83px;
+    background-image: url("logo.png");
+    background-size: cover;
+    margin-left: 35px;
+    
+}
+.foot_name{
+    margin-top: 10px;
+    color: white;
+    font-size: 2rem;
+    font-weight: 500px;
+}
+.foot_heading{
+    
+    margin-left: 40px;
+}
+.mainfoot{
+    display: flex;
+}
+.footspace{
+    width: 700px;
+}
+.socialmedia{
+    display: flex;
+    width: 500px;
+    height: 150px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.donate{
+    color: black;
+    text-decoration: none;
+}
+.copyright{
+    color: white;
+    margin-top: 10px;
+    margin-left: 700px;
+}
+
